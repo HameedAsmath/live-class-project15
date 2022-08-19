@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto:wght@700&family=Tourney:wght@300;900&display=swap");
+i {
+  color: red;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: rgb(6, 6, 6);
+  font-family: "Montserrat";
+}
+nav {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 1.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  margin-left: 1.2em;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+nav img {
+  height: 35px;
+}
+/* hero section */
+.hero {
+  margin: 2% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-left img {
+  height: 600px;
+}
+.hero-right p {
+  color: rgb(202, 202, 202);
+  margin: 1em 0px;
+}
+.hero-right p:first-child {
+  color: red;
+  font-weight: bold;
+}
+.hero-right h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+button {
+  color: #fff;
+  background-color: red;
+  border: 0px;
+  padding: 1em 1.6em;
+  margin-top: 2em;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.cards-container {
+  margin: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  padding: 1.2rem;
+  background-color: rgb(65, 65, 65);
+  margin-left: 2em;
+}
+.card h3 {
+  font-weight: bold;
+  color: #fff;
+  margin-top: 5px;
+}
+.card p {
+  color: #fff;
+  margin: 10px 0px;
+  font-size: 1rem;
+}
+.card p:last-child {
+  color: red;
+}
+.card i {
+  color: red;
+}
+.active {
+  background-color: red;
+  color: #fff;
+}
+.active p:last-child,
+.active i {
+  color: #fff;
+}
+/* achievements */
+.achievements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.experience {
+  color: red;
+}
+.experience h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.experience p {
+  color: #fff;
+  font-weight: bold;
+}
+.grids {
+  margin-left: 3em;
+  color: red;
+}
+.row1 {
+  display: flex;
+}
+.row2 {
+  display: flex;
+}
+.grid {
+  background-color: rgb(50, 50, 50);
+  padding: 1em 4em;
+  margin-left: 1em;
+  width: 11em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.grid p {
+  color: #fff;
+}
+/* gray container */
+.grey-container {
+  width: 50%;
+  background-color: rgb(37, 37, 37);
+  height: 550px;
+  position: absolute;
+  top: 700px;
+  z-index: -1;
+}
+.featured-product-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4% 18%;
+}
+.featured-product-heading h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.featured-product-heading p {
+  color: rgb(184, 184, 184);
+  font-size: 1rem;
+}
+.featured-row1 {
+  display: flex;
+  justify-content: center;
+}
+.featured-product {
+  margin: 5%;
+}
+.featured-card {
+  padding: 60px 16px;
+  background-color: rgb(52, 52, 52);
+  margin-left: 1.8em;
+  width: 450px;
+}
+.featured-card img {
+  width: 100%;
+}
+.featured-row2 {
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+.featured-card-container h2 {
+  margin-top: 0.6em;
+  color: #fff;
+  margin-left: 1.3em;
+}
+.featured-card-container p {
+  color: red;
+  margin-left: 1.8em;
+}
+.mozaik {
+  height: 300px;
+}
+/* bottom-card */
+.bottom-card {
+  width: 600px;
+  position: relative;
+  left: 33%;
+  background-color: rgb(44, 44, 44);
+  padding: 1em;
+}
+.footer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-card h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.bottom-card p {
+  color: rgb(185, 185, 185);
+  margin-top: 10px;
+}
+.bottom-card button {
+  margin-left: 3em;
+}
+/* footer */
+.footer {
+  margin-top: 2em;
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5em;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
