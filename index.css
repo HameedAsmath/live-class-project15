@@ -145,7 +145,7 @@ button {
 .grey-container {
   width: 50%;
   background-color: rgb(37, 37, 37);
-  height: 550px;
+  height: 950px;
   position: absolute;
   top: 700px;
   z-index: -1;
@@ -237,4 +237,80 @@ button {
   justify-content: space-around;
   align-items: center;
   width: 50%;
+}
+.menu-container{
+  display: none;
+}
+
+/* media queries */
+@media only screen and (max-width:720px){
+  .menu-container{
+    display: block;
+  }
+  nav ul{
+    display: none;
+  }
+  .hero{
+    flex-direction: column;
+    text-align: center;
+  }
+  .cards-container{
+    flex-direction: column;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .row1{
+    flex-direction: column;
+    
+  }
+  .row2{
+    flex-direction: column;
+  }
+  .achievements{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .grids{
+    margin-left: 0px;
+  }
+  .experience{
+    margin: 15px 0px;
+  }
+  .featured-product-heading{
+    margin: 0px 20px;
+  } 
+  .featured-row1{
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .featured-row2{
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .featured-product{
+    margin: 0px;
+  }
+  .featured-card{
+    margin-top: 20px;
+  }
+  .featured-card img{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .featured-card{
+    padding: 15px 0px;
+    margin-left: 0px;
+  }
+  .footer-card{
+    flex-direction: column;
+  }
+  .bottom-card{
+    position: static;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+  } 
 }
